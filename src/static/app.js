@@ -651,7 +651,7 @@ document.addEventListener("DOMContentLoaded", () => {
       case "facebook":
         shareUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(
           pageUrl
-        )}&quote=${encodeURIComponent(shareText)}`;
+        )}`;
         window.open(shareUrl, "_blank", "width=600,height=400");
         break;
 
